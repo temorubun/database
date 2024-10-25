@@ -3,7 +3,7 @@
 $servername = "localhost";
 $username = "root"; // Ganti jika menggunakan username lain
 $password = ""; // Ganti jika menggunakan password
-$dbname = "db_jesica"; // Ganti dengan nama database Anda
+$dbname = "db_agung"; // Ganti dengan nama database Anda
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -13,7 +13,7 @@ if ($conn->connect_error) {
 }
 
 // Query untuk mengambil data
-$sql = "SELECT * FROM tb_jesica WHERE 1";
+$sql = "SELECT * FROM tb_agung WHERE 1";
 $result = $conn->query($sql);
 ?>
 
